@@ -3,14 +3,14 @@
 
 Esse projeto implementa dois serviços simples em spring boot para demostrar:
 
-1. Um serviço de catálogo de filmes que permite cadastrar e consultar filmes.
-2. Um serviço de ticket que consulta os filmes que são lançamento(lançados no mês corrente).
+1. Um serviço de catálogo de filmes que permite cadastrar e consultar filmes(http://localhost:8080) .
+2. Um serviço de ticket que consulta os filmes que são lançamento(lançados no mês corrente)(http://localhost:8081) .
 3. Um Banco de Dados Postgres SQL para armazenar os dados.
 4. Um serviço Redis para armazenar os lançamentos do mês.
-5. Um conjunto de aplicaçoes ELK (Elasticsearch, Logstash, Kibana) para agregar e visualizar logs
-6. Um servidor ZIPKIN para visualização de logs
-7. Um Serviço PROMETHEUS para armazenar dados da execução
-8. Um Serviço GRAFANA para visualização de métricas armazenadas no Prometheus
+5. Um conjunto de aplicaçoes ELK (Elasticsearch, Logstash, Kibana)(http://localhost:5601) para agregar e visualizar logs
+6. Um servidor ZIPKIN(http://localhost:9411) para visualização de logs
+7. Um Serviço PROMETHEUS(http://localhost:9090) para armazenar dados da execução
+8. Um Serviço GRAFANA(http://localhost:3000) para visualização de métricas armazenadas no Prometheus(usuario:admin/senha:admin)
 
 
 Esses são os passos para executar a aplicação:
