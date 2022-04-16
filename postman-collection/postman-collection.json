@@ -1,0 +1,102 @@
+{
+  "info": {
+    "_postman_id": "9e7a77f2-e003-437b-be35-de55702c9080",
+    "name": "PostmanCollection",
+    "description": "Collection para trabalho de devops\n",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "MOVIE CATALOG",
+      "item": [
+        {
+          "name": "GET - localhost:8080/movie",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "localhost:8080/movie",
+              "host": [
+                "localhost"
+              ],
+              "port": "8080",
+              "path": [
+                "movie"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "POST - localhost:8080/movie",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n    \"name\": \"Movie 1\",\n    \"category\": \"Movie 1\",\n    \"directors\": \"Movie 1\",\n    \"writers\": \"Movie 1\",\n    \"actors\": \"Movie 1\",\n    \"releaseDate\": \"20200411\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "localhost:8080/movie",
+              "host": [
+                "localhost"
+              ],
+              "port": "8080",
+              "path": [
+                "movie"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "GET - localhost:8080/movie/{id}",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "localhost:8080/movie/e6a625cc-718b-48c2-ac76-1dfdff9a521e",
+              "host": [
+                "localhost"
+              ],
+              "port": "8080",
+              "path": [
+                "movie",
+                "e6a625cc-718b-48c2-ac76-1dfdff9a521e"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "TICKET MANAGER",
+      "item": [
+        {
+          "name": "GET - localhost:8081/newreleases",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "localhost:8081/newreleases",
+              "host": [
+                "localhost"
+              ],
+              "port": "8081",
+              "path": [
+                "newreleases"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    }
+  ]
+}
