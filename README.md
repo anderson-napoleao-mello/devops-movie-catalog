@@ -1,4 +1,4 @@
-# Introduction
+# Introdução
 ## Projeto de Conclusão de disciplina.
 
 Esse projeto implementa dois serviços simples em spring boot para demostrar:
@@ -53,10 +53,10 @@ A execução do comando acima na raiz do diretório do projeto criará todos os 
 
 <p>Se tudo iniciar sem erros, você deverá ver um monte de informações do Spring Boot na saída padrão. Neste ponto, todos os serviços necessários estarão em execução.</p>
 
-# Database
+# Banco de Dados
 
 No diretório docker estão os scripts de banco de dados.
 
-## Contact
+## Contato
 
 anderson.mello@al.infnet.edu.br
