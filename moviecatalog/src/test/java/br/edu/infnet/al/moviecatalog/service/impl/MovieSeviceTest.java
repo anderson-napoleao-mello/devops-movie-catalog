@@ -59,7 +59,7 @@ public class MovieSeviceTest {
         Optional<Movie> result = service.getById(id1.toString());
         assertFalse(result.isEmpty());
         assertEquals("Movie1", result.get().getName());
-        assertEquals(id1.toString(), result.get().getId().toString());
+        assertEquals(id1.toString(), result.get().getId());
     }
 
     @Test

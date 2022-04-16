@@ -7,8 +7,8 @@ import java.util.Optional;
 import java.util.UUID;
 
 public interface MovieService {
-  public List<Movie> getAll();
-  public Optional<Movie> getById(String id);
-  public List<String> getNewReleases();
-  public Movie save(Movie movie);
+  List<Movie> getAll();
+  Optional<Movie> getById(String id);
+  List<String> getNewReleases();
+  Movie save(Movie movie);
 }

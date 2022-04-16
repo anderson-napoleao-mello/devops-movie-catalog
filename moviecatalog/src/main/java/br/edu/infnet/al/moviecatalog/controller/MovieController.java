@@ -69,7 +69,7 @@ public class MovieController {
   @PostMapping
   public ResponseEntity<Movie> create(@RequestBody Movie movie){
     randomRuntimeError();
-    return new ResponseEntity<Movie>(service.save(movie), HttpStatus.CREATED);
+    return new ResponseEntity<>(service.save(movie), HttpStatus.CREATED);
   }
 
   private void randomRuntimeError(){
